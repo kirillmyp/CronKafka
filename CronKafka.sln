@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronKafka", "src\CronKafka\CronKafka.csproj", "{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronKafka.Domain", "src\CronKafka.Domain\CronKafka.Domain.csproj", "{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronKafka.Infrastructure", "src\CronKafka.Infrastructure\CronKafka.Infrastructure.csproj", "{A673B2B8-0041-457B-8493-48A0C4432B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ADF8394-5AFF-4EF2-8FC3-34BC5B325497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C4EEBC59-0271-4B1D-8991-1560F8929037}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CDB82F2-CBE5-4978-B997-5CD01FF9D792}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A673B2B8-0041-457B-8493-48A0C4432B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A673B2B8-0041-457B-8493-48A0C4432B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A673B2B8-0041-457B-8493-48A0C4432B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A673B2B8-0041-457B-8493-48A0C4432B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DAC5CD8-7C67-4CA8-A3A3-51E685C68F1A} = {2ADF8394-5AFF-4EF2-8FC3-34BC5B325497}
+		{0A929799-C1CC-42E7-BC4A-1E3EC4670E0D} = {2ADF8394-5AFF-4EF2-8FC3-34BC5B325497}
+		{A673B2B8-0041-457B-8493-48A0C4432B2B} = {2ADF8394-5AFF-4EF2-8FC3-34BC5B325497}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8FD7814-9450-4EFD-9B1C-CFF62A38FFFC}
+	EndGlobalSection
+EndGlobal

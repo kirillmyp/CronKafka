@@ -1,0 +1,23 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56418/",
+      "sslPort": 44334
+    }
+  },
+  "profiles": {
+    "CronKafka (Dev)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:56418/health",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "LOCAL": "true",
+        "SERVICE_NAME": "CronKafka",
+        "SYSLOG_PORT": "601"
+      }
+    }
+  }
+}

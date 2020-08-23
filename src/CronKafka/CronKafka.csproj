@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />-->
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.7" />
+    <!--<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.0.0" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CronKafka.Domain\CronKafka.Domain.csproj" />
+    <ProjectReference Include="..\CronKafka.Infrastructure\CronKafka.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
